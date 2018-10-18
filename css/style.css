@@ -3,9 +3,43 @@
  * Subject - Interface Design - 2º Web Dev Apps - Nuevas Profesiones (https://www.fpnuevasprofesiones.es/)
  * October 2018
  */
- 
- #title{
- 
- font-size:65px;
- 
- }
+body {
+	font-family: Muli;
+}
+
+
+#head{
+	margin:2%;
+	
+}
+
+#text {
+	border: 1px solid black;
+	border-radius: 4px;
+	width:65%;
+	margin: 0 auto;
+	padding: 2%;
+	overflow: hidden;
+}
+
+#text #title, #text #subtitle {
+	text-align: center;
+}
+
+#text #title {
+	font-size: 56px;
+	font-weight: bold;
+}
+
+#text #subtitle {
+	font-size: 32px;
+}
+
+#head #text #image{
+  top: 15px;
+  left: 15px;
+  right: 0;
+  width: 20%;
+  float:left;
+
+}
