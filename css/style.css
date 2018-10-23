@@ -64,16 +64,16 @@ div#botonera {
     font-size: 35px;
 }
 
-#dev, #teacher, #google-xperience, contact{
+#dev, #teacher, #google-xperience, #contact{
 	
 	margin-top: 2%;	
 	
 }
 
-#dev div{
+#dev div, #teacher div, #google-xperience div, #contact div{
 	
 	margin-top: 2%;
-	
+	overflow: hidden;
 }
 
 .title{
@@ -94,11 +94,15 @@ div#botonera {
     width: 35%;
 }
 
+
 .w3-third.w3-container.image img {
     width: 100%;
     
 }
 
+.w3-third.w3-container.image.dos img {
+    width: 45%;
+}
 
 
 #footer{
