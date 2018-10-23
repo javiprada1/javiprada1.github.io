@@ -13,10 +13,24 @@ body {
 	
 }
 
+div#botonera {
+    margin-top: 2%;
+}
+
+#education .w3-cell-row.w3-margin-top {
+    text-align: center;
+}
+
+
+#education .w3-container {
+    width: 33.3%;
+}
+
+
 #text {
 	border: 1px solid black;
 	border-radius: 4px;
-	width:65%;
+	width:64%;
 	margin: 0 auto;
 	padding: 2%;
 	overflow: hidden;
@@ -44,6 +58,50 @@ body {
 
 }
 
+.continue {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 35px;
+}
+
+#dev, #teacher, #google-xperience, contact{
+	
+	margin-top: 2%;	
+	
+}
+
+#dev div{
+	
+	margin-top: 2%;
+	
+}
+
+.title{
+	font-size: -webkit-xxx-large;
+	
+}
+
+
+.w3-third.w3-container.anyo {
+    width: 10%;
+}
+
+.w3-third.w3-container.image {
+    width: 55%;
+}
+
+.w3-third.w3-container.text {
+    width: 35%;
+}
+
+.w3-third.w3-container.image img {
+    width: 100%;
+    
+}
+
+
+
 #footer{
-	text-align: center;	
+	text-align: center;
+	margin-top: 2%;	
 }
