@@ -109,3 +109,13 @@ div#botonera {
 	text-align: center;
 	margin-top: 2%;	
 }
+
+.amenu{
+	color:white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.amenu:hover{
+	color:black;
+}
